@@ -99,3 +99,23 @@ header{
     max-width: 1000px;
     flex-direction: row-reverse;
 }
+.footer{
+    background-color: lightgrey;  
+    
+}
+
+.row-footer{    
+    display: flex;  
+    padding: 20px;
+    min-height: 800px;    
+    max-width: 1000px; 
+    justify-content: center;  
+    
+}
+
+.footer-col{
+    border: 2px dashed black;
+	padding: 100px 300px;
+    background-color: green;
+    flex-basis: 100%;
+}
