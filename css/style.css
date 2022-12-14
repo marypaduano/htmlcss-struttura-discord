@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    background-color: aqua;
+}
+
+.debug [class^='col'] {
+	border: 2px dashed black;
+	padding: 10px;
+    flex-grow: 1;
+    background-color: orange;
+}
+
+.col-center {
+    flex-basis: 500px;
+    text-align: center;
+}
+.col-right {
+    text-align: right;
+}
+
+header{
+    min-height: 80px;
+}
+
+.row {
+	display: flex;
+	padding: 20px;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}   
