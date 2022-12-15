@@ -22,7 +22,7 @@ img {
 .section [class^='cont'] {
 	min-height: 400px; 
 }
-.hcol {
+.logo {
     align-items: flex-start;
 }
 .hcol-center {
@@ -115,3 +115,40 @@ header{
     background-color: green;
     flex-basis: 100%;
 }
+
+footer {
+    background-color: rgb(92, 92, 92);
+}
+.row-footer1 {    
+    display: flex;  
+    padding: 20px;
+    min-height: 800px;    
+    max-width: 1000px; 
+    justify-content: center;
+      
+}
+.footer1-col-big {
+    border: 2px dashed black;
+    background-color:pink;
+    flex-basis: calc(100%/3);
+    
+}
+.footer1-col {
+    border: 2px dashed black;
+    background-color:rgb(42, 42, 234);
+    flex-basis: calc(100%/6);
+}
+
+.row-footer2 {
+    display: flex;
+	padding: 20px 0;
+    justify-content: space-between;
+    max-width: 1000px;
+    background-color: aqua;
+}
+
+.footer2-col {
+    border: 2px dashed black;
+    padding: 10px;
+}
+
